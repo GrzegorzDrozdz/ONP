@@ -1,7 +1,7 @@
 import java.util.Stack;
 
 public class Main {
-    public static String co`nvertToONP(String infix) {
+    public static String convertToONP(String infix) {
         infix = infix.replaceAll("\\s","");  // Na poczatku usuwamy wszystkie spacje z dzialania
         StringBuilder onp = new StringBuilder();  // Do onp będziemy dodawać elementy na wyjście
         Stack<Character> operatorStack = new Stack<>();  // Tutaj będziemy przechowywać operatory
